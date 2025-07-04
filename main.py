@@ -58,7 +58,6 @@ def run_ocr_pipeline(input_img, expected_text):
     print(f"Original Image Accuracy     : {acc_raw} %")
     print(f"Preprocessed Image Accuracy : {acc_clean} %")
 
-# Run the pipeline
 if __name__ == "__main__":
     input_image = 'input/sample_image.jpg'
     expected_output = "This is a sample document for OCR testing"
